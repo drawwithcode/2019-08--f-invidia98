@@ -67,8 +67,8 @@ function draw() {
 	_text.textAlign(CENTER);
 	_text.textSize(133);
 	_text.fill(255);
-	_text.text("Latitude: " + position.latitude, width * 0.5, height * 2);
-  _text.text("Longitude: " + position.longitude, width * 0.5, height * 2);
+	_text.text("Latitude: " + position.latitude, width * 0.5, height * 0.2);
+  _text.text("Longitude: " + position.longitude, width * 0.5, height * 0.2);
   _text.text("Current time: " + formattedTime, width * 0.5, height * 0.8);
 
   //
